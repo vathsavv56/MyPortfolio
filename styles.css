@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto Mono" , system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetia Neue', sans-serif;
+    
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* #main-box{
+    box-sizing: border-box;
+} */
+
+header{
+    
+    position: sticky;
+    top: 35px;
+    border: 2px solid black; 
+    margin: 0 35px;
+    border-radius: 25px;
+    z-index: 10;
+}
+
+nav {
+    top: 35px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 0 20px;
+    /* position: sticky; */
+    /* z-index: 10; */
+    
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    border: 2px solid black;
+    /* padding: 0;
+    margin: 0; */
+    border-radius: 10px;
+}
+nav a{
+    display:inline-block;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    height: 15px;
+
+}
+
+
+#hero{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: relative;
+    border: 2px dashed rebeccapurple;
+
+
+
+    /* margin-bottom: 100px; */
+    
+}
+
+#hero > img{
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+
+nav li:hover{
+    color: white;
+    background-color: black;
+}
+
+nav li:hover > a{
+    color: white;
+}
+
+#left img{
+    width: 100px;
+    display: inline;
+}
+
+
+.box{
+    /* margin-top:; */
+    width: 100%;
+    height: 350px;
+    border: 2px dashed purple;
+    box-sizing: border-box;
+    margin: 0 auto;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    border-radius:15px ;
+    position: relative;
+}
+
+.left-me{
+    border: 2px dashed red;
+    left: 50px;
+    position: absolute;
+
+}
+
+
+.right-me {
+    border: 2px dashed green;
+    right: 50px;
+    position: absolute;
+
+}
+
+#AboutME{
+    /* border: 2px dashed gold; */
+    margin: 25px 25px;
+}
+
+
+main{
+    margin-top: 100px;
+}
