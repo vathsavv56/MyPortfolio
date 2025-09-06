@@ -20,18 +20,18 @@ header{
     top: 35px;
     border: 2px solid black; 
     margin: 0 35px;
+    margin-top: 35px;
     border-radius: 25px;
-    z-index: 10;
+    z-index: 1;
 }
 
 nav {
-    top: 35px;
+    
     display: flex;
     align-items:center;
     justify-content: space-between;
     padding: 0 20px;
-    /* position: sticky; */
-    /* z-index: 10; */
+    
     
 }
 
@@ -42,8 +42,6 @@ nav ul{
 nav li {
     display: inline;
     border: 2px solid black;
-    /* padding: 0;
-    margin: 0; */
     border-radius: 10px;
 }
 nav a{
@@ -59,22 +57,16 @@ nav a{
 
 #hero{
     width: 100%;
-    height: 100%;
+    height: 100vh;
     top: 0;
-    left: 0;
-    position: relative;
-    border: 2px dashed rebeccapurple;
-
-
-
-    /* margin-bottom: 100px; */
-    
+    position: absolute;
+    /* border: 2px dashed rebeccapurple; */
 }
 
 #hero > img{
-    background-repeat: no-repeat;
     width: 100%;
-    height: 100%;
+    height: 100;
+    
 }
 
 
@@ -94,38 +86,78 @@ nav li:hover > a{
 
 
 .box{
-    /* margin-top:; */
     width: 100%;
-    height: 350px;
+    height: 500px;
     border: 2px dashed purple;
     box-sizing: border-box;
     margin: 0 auto;
-    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
     border-radius:15px ;
     position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.box > h2{
+    position: absolute;
+    top: 25px;
+    left: 45px;
 }
 
 .left-me{
     border: 2px dashed red;
-    left: 50px;
+    left: 35px;
     position: absolute;
+    padding: 35px;
+    border-radius: 15px;
 
+}
+
+.left-me > p{
+    text-align: left;
+}
+
+
+#image-placeholder{
+    width: 250px;
+    height: 250px;
+    border: 2px dashed green;
+    border-radius: 15px;
+    right: 55px;
 }
 
 
 .right-me {
-    border: 2px dashed green;
-    right: 50px;
+    /* border: 2px dashed green; */
+    right: 100px;
     position: absolute;
+    height: 98%;
+    width: 350px;
 
 }
+.right-me > img{
+    width: 100%;
+    height: 100%;
+    
 
+}
 #AboutME{
     /* border: 2px dashed gold; */
-    margin: 25px 25px;
+    margin-right: 25px;
+    margin-left:25px ;
 }
 
 
 main{
-    margin-top: 100px;
+    margin-top: 110vh;
+}
+
+
+
+#studies{
+    height: 100vh;
+    width: 100%;
+    border: 2px dashed red;
+    margin-top: 150px;
+    /* margin: 0 15px; */
+
 }
