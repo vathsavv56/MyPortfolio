@@ -1,11 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main Index</title>
+    <title>Sleek Project Hub</title>
+    <!-- Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts for a modern look -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        xintegrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        /* Applying the Inter font to the whole page */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
 </head>
-<body>
-    
+
+<body class="bg-gradient-to-br from-slate-50 to-gray-200 flex items-center justify-center min-h-screen p-4">
+
+    <!-- The main container box with a sleeker design -->
+    <div class="bg-white/70 backdrop-blur-xl rounded-2xl shadow-xl p-8 max-w-md w-full border border-slate-200">
+
+        <!-- Header text -->
+        <div class="text-center mb-10">
+            <h1 class="text-3xl md:text-4xl font-bold text-slate-800">Project Hub</h1>
+            <p class="text-slate-500 mt-2">My Portfolios </p>
+        </div>
+
+        <!-- Container for the colorful links -->
+        <div class="space-y-4">
+
+            <!-- Link 1: Basic HTML/CSS -->
+            <a href="main-files/basic/index.html"
+                class="group flex items-center justify-center w-full text-slate-700 font-semibold bg-white hover:bg-sky-500 hover:text-white p-4 rounded-lg shadow-md transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
+                <i
+                    class="fa-solid fa-code fa-lg mr-3 transition-colors duration-300 text-sky-500 group-hover:text-white"></i>
+                Basic HTML & CSS
+            </a>
+
+            <!-- Link 2: Basic React -->
+            <a href="#"
+                class="group flex items-center justify-center w-full text-slate-700 font-semibold bg-white hover:bg-cyan-500 hover:text-white p-4 rounded-lg shadow-md transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
+                <i
+                    class="fa-solid fa-yin-yang fa-lg mr-3 transition-colors duration-300 text-cyan-500 group-hover:text-white"></i>
+                Basic React Based
+            </a>
+
+            <!-- Link 3: Advanced React + UI/UX -->
+            <a href="#"
+                class="group flex items-center justify-center w-full text-slate-700 font-semibold bg-white hover:bg-violet-500 hover:text-white p-4 rounded-lg shadow-md transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
+                <i
+                    class="fa-brands fa-figma fa-lg mr-3 transition-colors duration-300 text-violet-500 group-hover:text-white"></i>
+                Advanced (React + UI/UX)
+            </a>
+
+        </div>
+    </div>
+
 </body>
+
 </html>
